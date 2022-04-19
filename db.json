@@ -1,22 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Doctor's appointement",
-      "day": "Feb 5th at 2:30pm",
-      "reminder": true
+      "text": "hhh",
+      "day": "5th",
+      "reminder": true,
+      "id": 1
     },
     {
-      "text": "henry",
-      "day": "5 April 4pm",
+      "text": "swimming",
+      "day": "5th",
       "reminder": true,
       "id": 2
-    },
-    {
-      "text": "jusie",
-      "day": "15th Mar",
-      "reminder": true,
-      "id": 3
     }
   ]
 }
