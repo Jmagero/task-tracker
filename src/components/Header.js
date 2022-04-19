@@ -13,6 +13,8 @@ const Header = ({ showAddTask, onAdd }) => (
 );
 
 Header.propTypes = {
-  showAddTask: PropTypes.func.isRequired,
+  showAddTask: PropTypes.bool.isRequired,
   onAdd: PropTypes.func.isRequired,
 };
+
+export default Header;
