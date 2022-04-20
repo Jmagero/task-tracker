@@ -2,7 +2,7 @@ import { FaTimes } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 
 const Task = ({ task, onDelete, toggle }) => (
-  <div onDoubleClick={() => toggle(task.id)}>
+  <div onDoubleClick={() => toggle(task.id)} className={`task ${task.reminder && 'reminder'}`}>
     <h3>
       {task.text}
       <FaTimes style={{ color: 'red' }} onClick={() => onDelete(task.id)} />

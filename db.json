@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "text": "Go for a walk",
+      "day": "12 April 2022",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Swimming",
+      "day": "4pm",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Buy groceries ",
+      "day": "10am",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Dancing",
+      "day": "11 April",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}

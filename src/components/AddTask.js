@@ -14,8 +14,8 @@ const AddTask = ({ addTask }) => {
     setReminder(false);
   };
   return (
-    <form onSubmit={onSubmit}>
-      <div>
+    <form onSubmit={onSubmit} className="add-form">
+      <div className="form-control">
         <input
           type="text"
           value={text}
@@ -23,7 +23,7 @@ const AddTask = ({ addTask }) => {
           onChange={(e) => setText(e.target.value)}
         />
       </div>
-      <div>
+      <div className="form-control">
         <input
           type="text"
           value={day}
@@ -31,7 +31,7 @@ const AddTask = ({ addTask }) => {
           onChange={(e) => setDay(e.target.value)}
         />
       </div>
-      <div>
+      <div className="form-control">
         <input
           checked={reminder}
           type="checkbox"
@@ -39,7 +39,7 @@ const AddTask = ({ addTask }) => {
           onChange={(e) => setReminder(e.currentTarget.checked)}
         />
       </div>
-      <input type="submit" value="save task" />
+      <input type="submit" value="save task" className="btn btn-block" />
     </form>
   );
 };
