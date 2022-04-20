@@ -5,13 +5,14 @@ import Button from './Button';
 const Header = ({ showAddTask, onAdd }) => {
   const location = useLocation();
   return (
-    <header>
-      <h1>This is Header</h1>
+    <header className="header">
+      <h1 className="title">Task Tracker</h1>
       {location.pathname === '/'
      && (
      <Button
-       text={showAddTask ? 'close' : 'Add'}
-       color={showAddTask ? 'red' : 'green'}
+       text={showAddTask ? 'Close' : 'Add'}
+       bgColor={showAddTask ? 'red' : 'green'}
+       textColor={showAddTask ? 'black' : 'white'}
        onClick={onAdd}
      />
      )}
